@@ -1,13 +1,13 @@
 # Dependencies
 node_modules/
-/.pnp
+.pnp
 .pnp.js
 
 # Production / Build Outputs
-/dist/
-/build/
-/.vite/
-/out/
+dist/
+build/
+.vite/
+out/
 *.tsbuildinfo
 
 # Environment Variables & Secrets
@@ -37,10 +37,10 @@ logs
 Thumbs.db
 
 # Testing & Coverage
-/coverage/
-/.nyc_output/
+coverage/
+.nyc_output/
 
 # Docker & Container Data (if applicable)
-/data/
-/db/
+data/
+db/
 docker-compose.override.yml
